@@ -136,3 +136,60 @@ nav div{
   color: #0000007c;
   margin-top: 0;
 }
+
+/* feedback section styles */
+.feedback-title{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #252432;
+  
+}
+
+.user-container{
+  display: flex;
+  gap: 20px;
+}
+
+.user-card{
+  padding: 24px;
+  background-color: white;
+  border-radius:  14px;
+}
+
+.ratting{
+  color: #FFB805;
+  margin-bottom: 15px;
+}
+
+.card-title{
+  margin-bottom: 8px;
+}
+
+.card-description{
+  margin-top: 0;
+}
+
+.reviewer-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reviewer-container img{
+  object-fit:cover;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer-title{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.664);
+  margin-bottom: 0;
+}
+
+.date{
+  margin-top: 0;
+  color: gray;
+}
