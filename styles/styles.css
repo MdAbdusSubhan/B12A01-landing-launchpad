@@ -12,9 +12,9 @@
   font-style: normal;
 }
 
-body{
+/* body{
     margin: 0 auto;
-}
+} */
 
 header{
   background-image: url(../Assets/Hero-bg.png);
@@ -22,6 +22,13 @@ header{
 
 button:hover{
   background-color: rgb(95, 118, 160);
+}
+
+
+main section{
+  margin: 0 auto 115px;
+  max-width: 1100px;
+  
 }
 
 /* shared styles */
@@ -67,4 +74,24 @@ nav div{
   font-size: 50px;
   font-weight: bold;
   color: #252432;
+}
+
+/* action section styles */
+.action{
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+  align-items: center;
+  margin-top: 115px;
+}
+
+.action-title{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.action-description{
+  font-size: 24px;
+  color: #25243280;
 }
