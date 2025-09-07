@@ -217,3 +217,35 @@ nav div{
   border-radius: 45px;
   margin-top: 20px;
 }
+
+/* getintouch section styles */
+.getintouch{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+
+.getintouch-title{
+  font-size: 90px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.getintouch-form{
+  width: 50%;
+}
+
+form label, input, textarea, #btn{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form input, textarea{
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
